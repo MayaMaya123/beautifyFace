@@ -1,8 +1,7 @@
 import cv2
-import sys
 
 # Get user supplied values
-imagePath = "/images"
+imagePath = "/images"  # Путь к изображению на котором будем распознавать лица
 cascPath = "haarcascade_frontalface_default.xml"
 
 # Create the haar cascade
